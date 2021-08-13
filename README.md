@@ -1,11 +1,11 @@
 # File-Sender-Python
-# [How to Transfer Files in the Network using Sockets in Python]
+# How to Transfer Files in the Network using Sockets in Python
 To run this:
-- `pip3 install -r requirements.txt`.
+- `pip install -r requirements.txt`.
 - ### For the server ( the receiver ):
     - 
         ```
-        python3 receiver.py
+        python receiver.py
         ```
 - ### For the client ( the sender ):
     - 
@@ -23,7 +23,7 @@ To run this:
         -h, --help            show this help message and exit
         -p PORT, --port PORT  Port to use, default is 5001
         ```
-        For instance, if you want to send `data.csv` to `192.168.1.101`:
+        For instance, if you want to send `download.jpg` to `192.168.31.143`:
         ```
-        python3 sender.py data.csv 192.168.1.101
+        python3 sender.py download.jpg 192.168.31.143
         ```
